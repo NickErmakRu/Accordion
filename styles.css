@@ -1,0 +1,183 @@
+body {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.accordion {
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inline2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.stupidtext {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+.nvisible2 {
+    display: none;
+}
+
+
+
+.btn-link {
+    text-decoration: none !important;
+    color: mediumvioletred;
+}
+
+.btn-link:hover {
+    color: forestgreen;
+}
+
+
+
+button {
+    color: white;
+}
+
+.mybutton {
+    background-color: #0c6e12;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+    color: white;
+}
+
+button:hover .nvisible1 {
+    display: none;
+}
+
+.mybutton:hover {
+    background-color: #740064;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+}
+
+.mybutton:hover .nvisible2 {
+    display: block;
+}
+
+
+
+.minustext:hover p {
+    visibility: hidden;
+}
+
+
+
+.myoutline {
+    color: #0c6e12 !important;
+    background-color: white !important;
+    border-color: #0c6e12 !important;
+    margin: 0px 20px;
+}
+
+.myoutline:hover {
+    color: white !important;
+    background-color: #740064 !important;
+    border-color: white !important;
+}
+
+
+
+
+.corn {
+    background-color: rgba(254, 241, 96, 1);
+    color: black;
+    border-color: darkorange;
+    border-radius: 50%;
+}
+
+.corn:hover {
+    background-image: url(http://anasko.ru/uploads/dleposts/2016-06/1465390381_yellow_rays.png);
+    background-size: 100%;
+    color: darkorange;
+    border-color: darkorange;
+    border-radius: 50%;
+}
+
+
+
+
+.head1 {
+    background: 
+        linear-gradient(170deg, transparent 80%, #91CBCF 30%), 
+        linear-gradient(156deg, transparent 68%, #E3D9C3 30%), 
+        linear-gradient(135deg, transparent 60%, #91CBCF 30%),
+        linear-gradient(115deg, transparent 55%, #E3D9C3 30%),
+        linear-gradient(65deg, transparent 45%, #91CBCF 30%),
+        linear-gradient(45deg, transparent 40%, #E3D9C3 30%),
+        linear-gradient(24deg, transparent 32%, #91CBCF 30%),
+        linear-gradient(10deg, transparent 20%, #E3D9C3 20%),
+        linear-gradient(0deg, transparent 0%,  #91CBCF 0%);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.head2 {
+    background: 
+        linear-gradient(170deg, transparent 80%, #F4CF24 30%), 
+        linear-gradient(156deg, transparent 68%, #E3D9C3 30%), 
+        linear-gradient(135deg, transparent 60%, #F4CF24 30%),
+        linear-gradient(115deg, transparent 55%, #E3D9C3 30%),
+        linear-gradient(65deg, transparent 45%, #F4CF24 30%),
+        linear-gradient(45deg, transparent 40%, #E3D9C3 30%),
+        linear-gradient(24deg, transparent 32%, #F4CF24 30%),
+        linear-gradient(10deg, transparent 20%, #E3D9C3 20%),
+        linear-gradient(0deg, transparent 0%,  #F4CF24 0%);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.head3 {
+    background: 
+        linear-gradient(170deg, transparent 80%, #c12505 30%), 
+        linear-gradient(156deg, transparent 68%, #E3D9C3 30%), 
+        linear-gradient(135deg, transparent 60%, #c12505 30%),
+        linear-gradient(115deg, transparent 55%, #E3D9C3 30%),
+        linear-gradient(65deg, transparent 45%, #c12505 30%),
+        linear-gradient(45deg, transparent 40%, #E3D9C3 30%),
+        linear-gradient(24deg, transparent 32%, #c12505 30%),
+        linear-gradient(10deg, transparent 20%, #E3D9C3 20%),
+        linear-gradient(0deg, transparent 0%,  #c12505 0%);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.head4 {
+    background: 
+        linear-gradient(170deg, transparent 80%, #2b6b16 30%), 
+        linear-gradient(156deg, transparent 68%, #E3D9C3 30%), 
+        linear-gradient(135deg, transparent 60%, #2b6b16 30%),
+        linear-gradient(115deg, transparent 55%, #E3D9C3 30%),
+        linear-gradient(65deg, transparent 45%, #2b6b16 30%),
+        linear-gradient(45deg, transparent 40%, #E3D9C3 30%),
+        linear-gradient(24deg, transparent 32%, #2b6b16 30%),
+        linear-gradient(10deg, transparent 20%, #E3D9C3 20%),
+        linear-gradient(0deg, transparent 0%,  #2b6b16 0%);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+h5 {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10%;
+}
+
